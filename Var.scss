@@ -1,0 +1,17 @@
+$val:16px;
+div{
+   font-size:$val;
+   p{
+     color:orange;
+   }
+}
+
+%another{
+  font-weight: 500;
+}
+
+.container-2{
+  @extend %another
+  border: 15px
+  margin-left: auto;
+}

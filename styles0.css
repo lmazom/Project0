@@ -1,0 +1,70 @@
+h1 {
+ color: darkblue;
+ text-align: center;
+}
+
+p {
+  color:darkmagenta;
+  }
+
+#list li {
+       display:inline;
+       padding-left: 6px;
+       padding-right: 6px;
+      }
+table {
+        border:2px solid black;
+        border-collapse: collapse;
+        width:50%;
+      }
+th, td {
+        border: 1px solid black;
+        padding:5px;
+        text-align: center;
+      }
+th {
+        background-color:lightblue;
+      }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+}
+  .button {
+      border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+      padding: 12px; /*espacio alrededor texto*/
+      background-color: #2e518b; /*color botón*/
+      color: #ffffff; /*color texto*/
+      border-radius: 50px; /*bordes redondos*/
+    }
+
+    .container-lm{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+
+    .item-pad {
+      border-radius:8px;
+      border-width: medium;
+      margin:13px;
+      padding:15px;
+    }
+    .row {
+      border-color: darkblue;
+      padding:15px
+    }
+    .card {
+      width: 18rem;
+      margin: 20px
+      padding:7px;
+      border: 1px solid;
+      border-radius: 17px;
+      float: left;
+    }
+    .container{
+      padding-left: 20px;
+    border-left: : 10px;
+
+    }
